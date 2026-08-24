@@ -59,7 +59,7 @@ Alternativa A: Usar Binder (entorno Jupyter con escritorio virtual)
 Alternativa B: Google Colab + X11 forwarding (avanzado)
    No se recomienda para usuarios sin experiencia. Es mejor optar por la ejecución local o Binder.
 
-5. JUSTIFICACIÓN DEL HAMILTONIANO (RESPUESTA A LA OBSERVACIÓN DEL PROFESOR)
+5. JUSTIFICACIÓN DEL HAMILTONIANO
 -----------------------------------------------------------------------------
 El modelo utiliza un Hamiltoniano de Ising para caracterizar el estado del microambiente tumoral (TME). Aunque tradicionalmente el Hamiltoniano de Ising se usa para sistemas de espines (por ejemplo, átomos con momento magnético), aquí lo adaptamos a dos "clusters" o grupos celulares:
 
