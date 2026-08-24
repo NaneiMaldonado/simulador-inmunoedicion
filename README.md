@@ -45,21 +45,7 @@ Notas para macOS:
 Notas para Windows:
    Asegúrate de que Python esté en el PATH. Puedes ejecutar desde la línea de comandos o desde el PowerShell.
 
-4. EJECUCIÓN EN LÍNEA (ONLINE)
--------------------------------
-El simulador es una aplicación de escritorio con interfaz Tkinter, por lo que no se puede ejecutar directamente en un navegador web. Sin embargo, ofrecemos dos alternativas para probarlo sin instalar localmente:
-
-Alternativa A: Usar Binder (entorno Jupyter con escritorio virtual)
-   Haz clic en el siguiente enlace (o cópialo en tu navegador):
-   https://mybinder.org/v2/gh/NaneiMaldonado/simulador-inmunoedicion/HEAD?urlpath=lab
-   Una vez que se abra el entorno, abre una terminal y ejecuta:
-   python simulador_interactivo.py
-   (Ten en cuenta que Binder puede ser lento y el escritorio virtual es limitado)
-
-Alternativa B: Google Colab + X11 forwarding (avanzado)
-   No se recomienda para usuarios sin experiencia. Es mejor optar por la ejecución local o Binder.
-
-5. JUSTIFICACIÓN DEL HAMILTONIANO
+4. JUSTIFICACIÓN DEL HAMILTONIANO
 -----------------------------------------------------------------------------
 El modelo utiliza un Hamiltoniano de Ising para caracterizar el estado del microambiente tumoral (TME). Aunque tradicionalmente el Hamiltoniano de Ising se usa para sistemas de espines (por ejemplo, átomos con momento magnético), aquí lo adaptamos a dos "clusters" o grupos celulares:
 
@@ -80,7 +66,7 @@ Interpretación:
 
 Los factores externos (CO2 y ciclo hormonal) actúan como un "campo magnético" que modifica las probabilidades de transición y, por tanto, las poblaciones celulares, afectando el balance NA/NP y, en consecuencia, el Hamiltoniano. De esta manera, el modelo es formalmente análogo a un sistema de Ising de dos espines acoplados con un campo externo.
 
-6. ESTRUCTURA DEL CÓDIGO
+5. ESTRUCTURA DEL CÓDIGO
 ------------------------
 El archivo principal es simulador_interactivo.py y contiene:
 
@@ -93,7 +79,7 @@ El archivo principal es simulador_interactivo.py y contiene:
 
 El código está comentado en español para facilitar su comprensión.
 
-7. RESULTADOS ESPERADOS
+6. RESULTADOS ESPERADOS
 -----------------------
 Al ejecutar el simulador, verás una ventana con:
 
@@ -103,7 +89,7 @@ Al ejecutar el simulador, verás una ventana con:
 
 Puedes modificar los parámetros en tiempo real y observar cómo cambia la dinámica del sistema (por ejemplo, si el Hamiltoniano cruza el umbral cero, indica un cambio de fase).
 
-8. CONTACTO Y AGRADECIMIENTOS
+7. CONTACTO Y AGRADECIMIENTOS
 -----------------------------
 Autor: Nanei Mazatl Maldonado Fiesco
 Profesor: Dr. Matías Alvarado-Mentado
@@ -111,7 +97,7 @@ Institución: CINVESTAV-IPN, Departamento de Computación
 
 Agradecimientos especiales a todas las personas que contribuyeron con sugerencias y apoyo durante el desarrollo de este proyecto.
 
-9. LICENCIA
+8. LICENCIA
 -----------
 Este proyecto es de uso académico. Si utilizas el código, por favor cita el repositorio.
 
